@@ -1,4 +1,4 @@
-package com.api.parkingcontrol.models;
+package com.api.parkingcontrol.dtos.models;
 
 
 
@@ -7,8 +7,7 @@ import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
-@Entity
-@Table(name = "TB_PARKING_SPOT")
+@Entity(name = "TB_PARKING_SPOT")
 public class ParkingSpotModel implements Serializable {
     private static final long serialVersionUID = 1L;
 

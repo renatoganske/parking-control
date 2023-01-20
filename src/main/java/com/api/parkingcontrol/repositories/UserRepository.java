@@ -1,6 +1,6 @@
 package com.api.parkingcontrol.repositories;
 
-import com.api.parkingcontrol.models.UserModel;
+import com.api.parkingcontrol.dtos.models.UserModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
